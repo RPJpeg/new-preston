@@ -631,6 +631,10 @@ textarea {
 	width: 60px;
 }
 
+.testimonial a {
+	text-decoration: none;
+}
+
 /* Social Links
 ---------------------------------- */
 .social-links {
