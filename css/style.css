@@ -64,8 +64,6 @@ a {
 	color: #A7A9AC;
 }
 
-
-
 a:hover {
 	color: #A7A9AC;
 	text-decoration: none;
@@ -524,7 +522,7 @@ textarea {
 }
 .main-navigation .navbar-default .navbar-nav > li > a {
 	color: #17406C;
-	padding: 10px 20px;
+	padding: 10px 14px;
 	font-size: 18px;
 	font-weight: 300;
 }
@@ -808,6 +806,16 @@ textarea {
 	margin-top: 12px;
 	margin-bottom: 8px;
 	border-bottom: 2px solid black;
+}
+
+.thumbnail .blog-title {
+	color: black;
+}
+
+.blog-image {
+	margin: 25px;
+	padding: 0 20px;
+	border-radius: 5px;
 }
 
 .needs-update {
