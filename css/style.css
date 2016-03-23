@@ -267,7 +267,6 @@ blockquote p {
 .default-bg a,
 .translucent-bg a {
 	color: #ffffff;
-	text-decoration: underline;
 }
 .default-bg a:hover,
 .translucent-bg a:hover {
@@ -431,6 +430,19 @@ hr {
 	border-color: #A7A9AC;
 }
 
+.account-button {
+	width: 400px;
+	margin: 20px auto;
+	background-color: #5a92c5;
+	border: 0;
+	padding: 15px;
+}
+
+.account-button:hover {
+	background-color: #17406c;
+	border: 0;
+}
+
 /* Collapse
 ---------------------------------- */
 .panel-group .panel {
@@ -570,6 +582,15 @@ textarea {
 	text-align: center;
 }
 
+.media-body a h4:hover {
+	text-decoration: none;
+	color: #A7A9AC;
+}
+
+.media-body a h4 {
+	text-decoration: underline;
+}
+
 /* Navigations
 ----------------------------------------------------------------------------- */
 .header .navbar {
@@ -593,6 +614,15 @@ textarea {
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
 	color: #A7A9AC;
 }
+
+.navbar-nav {
+	float: right !important;
+}
+
+.navbar-nav li {
+	text-align: right;
+}
+
 @media (min-width:768px) {
 	.main-navigation .navbar-default .navbar-nav > li > a {
 		padding-top: 40px;
@@ -609,10 +639,10 @@ textarea {
 		padding-left: 0;
 		padding-right: 0;
 	}
-	.navbar-nav {
-		float: left !important;
-	}
 }
+
+
+
 @media (max-width:767px) {
 	.header.navbar-fixed-top {
 		position: fixed;
