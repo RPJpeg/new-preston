@@ -1161,7 +1161,8 @@
 						</div>
 						<div class="col-sm-6">
 							<div class="footer-content">
-								<form role="form" id="footer-form" action="http://formspree.io/info@prestonwealthadvisors.com" method="POST">
+
+								<form role="form" id="footerform" method="POST">
 									<div class="form-group has-feedback">
 										<label class="sr-only" for="name2">Name</label>
 										<input type="text" class="form-control" id="name" placeholder="Name" name="name2" required value="">
@@ -1177,8 +1178,16 @@
 										<textarea class="form-control" rows="8" id="message" placeholder="Message" name="message2" required value=""></textarea>
 										<i class="fa fa-pencil form-control-feedback"></i>
 									</div>
+									<input type="text" name="_gotcha" style="display:none" />
+									<input type="hidden" name="_subject" value="New Website Contact!" />
 									<input type="submit" value="Send" class="btn btn-default send">
 								</form>
+
+								<script>
+								    var footerform =  document.getElementById('footerform');
+								    footerform.setAttribute('action', '//formspree.io/' + 'ryanjones83' + '@' + 'gmail' + '.' + 'com');
+								</script>
+
 							</div>
 						</div>
 					</div>
