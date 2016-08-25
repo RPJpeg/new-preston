@@ -57,6 +57,12 @@ h3 span,
 h4 span {
 	color: #A7A9AC;
 }
+
+.banner small {
+	font-size: 20px;
+	margin-left: 5px;
+}
+
 .text-colored {
 	color: #A7A9AC;
 }
@@ -152,6 +158,11 @@ a li:hover {
 .list-icons li {
 	padding: 0 0 15px 0;
 }
+
+.list-icons li img {
+	width: 200px;
+}
+
 blockquote {
 	border-left: none;
 	padding-left: 0;
@@ -740,6 +751,14 @@ textarea {
 
 .testimonial a {
 	text-decoration: none;
+}
+
+@media (min-width:768px) {
+
+.team-placement-adjust {
+	transform: translateY(100px);
+}
+
 }
 
 /* Isotope Items
