@@ -172,7 +172,6 @@ blockquote {
 
 .side-lines {
 	border-left: 1px solid #737373;
-	border-right: 1px solid #737373;
 }
 
 @media (max-width:991px) {
@@ -760,12 +759,16 @@ textarea {
 
 /* Testimonials
 ---------------------------------- */
+.testimonial {
+	height: 200px;
+}
 .testimonial .media-left {
 	width: 60px;
 }
 
 .testimonial a {
 	text-decoration: none;
+	margin-top: 20px;
 }
 
 @media (min-width:991px) {
